@@ -1,0 +1,33 @@
+{
+    "name": "rocket-firm/yii2-loggable-behavior",
+    "description": "Yii2 Active Record logging behavior",
+    "type": "yii2-extension",
+    "keywords": [
+        "yii2",
+        "log",
+        "logging",
+        "loggable",
+        "behavior",
+        "active",
+        "record",
+        "model"
+    ],
+    "license": "BSD-3-Clause",
+    "authors": [
+        {
+            "name": "Altynbek Kazezov",
+            "email": "altynbek.kazezov.97@gmail.com",
+            "role": "Developer"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "rocketfirm\\loggable\\behaviors\\": "src/behaviors/",
+            "rocketfirm\\loggable\\models\\": "src/models/"
+        }
+    },
+    "minimum-stability": "stable",
+    "require-dev": {
+        "phpunit/phpunit": "^5.4"
+    }
+}
