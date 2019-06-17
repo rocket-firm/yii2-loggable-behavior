@@ -18,12 +18,18 @@
             "name": "Altynbek Kazezov",
             "email": "altynbek.kazezov.97@gmail.com",
             "role": "Developer"
+        },
+        {
+            "name": "Vlad Kim",
+            "email": "kim.vlad32@gmail.com",
+            "role": "MASTER"
         }
     ],
     "autoload": {
         "psr-4": {
             "rocketfirm\\loggable\\behaviors\\": "src/behaviors/",
-            "rocketfirm\\loggable\\models\\": "src/models/"
+            "rocketfirm\\loggable\\models\\": "src/models/",
+            "rocketfirm\\loggable\\migrations\\": "src/migrations/"
         }
     },
     "minimum-stability": "stable",
