@@ -80,7 +80,7 @@ class LoggableBehavior extends Behavior
 				}
 			}
 
-			if (!empty($changedAttributes)) {
+			if (!empty($changedAttributes) || $event->name === ActiveRecord::EVENT_AFTER_INSERT) {
 				$log->attributes = [
 					'model_classname' => get_class($owner),
 					'model_id' => $owner->getPrimaryKey(),
